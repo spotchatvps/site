@@ -1,0 +1,136 @@
+<!-- Start Footer Area -->
+<footer
+    class="footer-area"
+    [ngClass]="{'d-none': router.url === '/home-nine' || router.url === '/home-ten' || router.url === '/home-eleven'}"
+>
+    <div class="divider"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <div class="logo">
+                        <a routerLink="/">
+                            <img src="assets/img/white-logo.png" alt="image">
+                        </a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Company</h3>
+                    <ul class="services-list">
+                        <li><a routerLink="/">About Us</a></li>
+                        <li><a routerLink="/">Services</a></li>
+                        <li><a routerLink="/">Features</a></li>
+                        <li><a routerLink="/">Our Pricing</a></li>
+                        <li><a routerLink="/">Latest News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Support</h3>
+                    <ul class="support-list">
+                        <li><a routerLink="/">FAQ's</a></li>
+                        <li><a routerLink="/">Privacy Policy</a></li>
+                        <li><a routerLink="/">Terms & Conditions</a></li>
+                        <li><a routerLink="/">Community</a></li>
+                        <li><a routerLink="/">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact-info">
+                        <li>Location: <a href="https://goo.gl/maps/MQ78iGP5g9VgZcJ38" target="_blank">6th Floor, Elegant Tower, York, USA</a></li>
+                        <li>Email: <a href="mailto:hello@spacle.com">hello@spacle.com</a></li>
+                        <li>Phone: <a href="tel:+321754754">+0 (321) 984 754</a></li>
+                    </ul>
+                    <ul class="social">
+                        <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <p>Copyright @{{currentYear}} Spacle. Designed by <a href="http://envytheme.com/" target="_blank">EnvyTheme</a></p>
+        </div>
+    </div>
+</footer>
+
+<footer
+    class="footer-area-with-black-color pt-100 d-none"
+    [ngClass]="{'d-block': router.url === '/home-nine' || router.url === '/home-ten' || router.url === '/home-eleven'}"
+>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <div class="logo">
+                        <a routerLink="/">
+                            <img src="assets/img/white-logo.png" alt="image">
+                        </a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.</p>
+                    <ul class="social">
+                        <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget ps-5">
+                    <h3>Company</h3>
+                    <ul class="services-list">
+                        <li><a routerLink="/about">About Us</a></li>
+                        <li><a routerLink="/services-1">Services</a></li>
+                        <li><a routerLink="/features-1">Features</a></li>
+                        <li><a routerLink="/pricing">Our Pricing</a></li>
+                        <li><a routerLink="/blog-grid">Latest News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Support</h3>
+                    <ul class="support-list">
+                        <li><a routerLink="/faq">FAQ's</a></li>
+                        <li><a routerLink="/">Privacy Policy</a></li>
+                        <li><a routerLink="/">Terms & Conditions</a></li>
+                        <li><a routerLink="/about">Community</a></li>
+                        <li><a routerLink="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact-info">
+                        <li>Location: <a href="https://goo.gl/maps/MQ78iGP5g9VgZcJ38" target="_blank">6th Floor, Elegant Tower, York, USA</a></li>
+                        <li>Email: <a href="mailto:hello@spacle.com">hello@spacle.com</a></li>
+                        <li>Phone: <a href="tel:+321754754">+0 (321) 984 754</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <p>Copyright @{{currentYear}} Spacle. Designed by <a href="http://envytheme.com/" target="_blank">EnvyTheme</a></p>
+        </div>
+    </div>
+    <div class="footer-shape-1">
+        <img src="assets/img/seo-marketing/footer-shape1.png" alt="image">
+    </div>
+    <div class="footer-shape-2">
+        <img src="assets/img/seo-marketing/footer-shape2.png" alt="image">
+    </div>
+</footer>
+<!-- End Footer Area -->
+
+<div class="go-top"><i class='bx bx-chevron-up'></i></div>

@@ -1,0 +1,233 @@
+<!-- Start Top Bar Area -->
+<div
+    class="top-bar-area d-none"
+    [ngClass]="{'d-block': router.url === '/home-ten' || router.url === '/home-eleven'}"
+>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-9 col-md-12">
+                <div class="top-bar-info">
+                    <li><span>Phone:</span> <a href="tel:1-541-754-3010">+1-541-754-3010</a></li>
+                    <li><span>Email:</span> <a href="mailto:hello@spacle.com">hello@spacle.com</a></li>
+                    <li><span>Address:</span> Sylvan Ave 6th Floor, Tego, USA</li>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <ul class="top-bar-social">
+                    <li>
+                        <span>Follow us on:</span>
+                    </li>
+                    <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Top Bar Area -->
+
+<!-- Start Navbar Area -->
+<div class="navbar-area navbar-style-two">
+    <div class="spacle-nav">
+        <div
+            class="container"
+            [ngClass]="{'container-fluid': router.url === '/home-nine' || router.url === '/home-ten' || router.url === '/home-eleven'}"
+        >
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" routerLink="/">
+                    <img src="assets/img/logo.png" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Home <i class='bx bx-chevron-down'></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">Home One (Chatbot)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-two" routerLinkActive="active" class="nav-link">Home Two (Chatbot)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-three" routerLinkActive="active" class="nav-link">Home Three (Chatbot)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-four" routerLinkActive="active" class="nav-link">Home Four (IT Startup)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-five" routerLinkActive="active" class="nav-link">Home Five (IT Startup)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-six" routerLinkActive="active" class="nav-link">Home Six (IT Startup)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-seven" routerLinkActive="active" class="nav-link">Home Seven (SaaS Startup)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-eight" routerLinkActive="active" class="nav-link">Home Eight (Agency)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-nine" routerLinkActive="active" class="nav-link">Home Nine (SEO)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-ten" routerLinkActive="active" class="nav-link">Home Ten (IT Solution)</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/home-eleven" routerLinkActive="active" class="nav-link">Home Eleven (Marketing)</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a routerLink="/about" routerLinkActive="active" class="nav-link">About Us</a>
+                        </li>
+
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a routerLink="/pricing" routerLinkActive="active" class="nav-link">Pricing</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Pages <i class='bx bx-chevron-down'></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/team" routerLinkActive="active" class="nav-link">Team</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                        Services
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                            <a routerLink="/services-1" routerLinkActive="active" class="nav-link">
+                                                Services Style One
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                            <a routerLink="/services-2" routerLinkActive="active" class="nav-link">
+                                                Services Style Two
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                            <a routerLink="/services-3" routerLinkActive="active" class="nav-link">
+                                                Services Style Three
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                            <a routerLink="/single-services" routerLinkActive="active" class="nav-link">
+                                                Services Details
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                        Features
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                            <a routerLink="/features/features-1" routerLinkActive="active" class="nav-link">
+                                                Features Style One
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                            <a routerLink="/features/features-2" routerLinkActive="active" class="nav-link">
+                                                Features Style Two
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/auth/signin" routerLinkActive="active" class="nav-link">Log In</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/auth/signup" routerLinkActive="active" class="nav-link">Sign Up</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/faq" routerLinkActive="active" class="nav-link">FAQ</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/error-404" routerLinkActive="active" class="nav-link">404 Error Page</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Blog <i class='bx bx-chevron-down'></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/blog/blog-grid" routerLinkActive="active" class="nav-link">Blog Grid</a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/blog/blog-with-right-sidebar" routerLinkActive="active" class="nav-link">
+                                        Blog Right Sidebar
+                                    </a>
+                                </li>
+
+                                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                                    <a routerLink="/blog/blog-details" routerLinkActive="active" class="nav-link">
+                                        Blog Details
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a routerLink="/contact" routerLinkActive="active" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="others-options">
+                        <a routerLink="/contact" class="default-btn">
+                            <i class="bx bxs-hot"></i>Try It Free Now<span></span>
+                        </a>
+
+                        <a routerLink="/auth/signin" class="optional-btn">
+                            <i class="bx bx-log-in"></i>Log In<span></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Navbar Area -->
