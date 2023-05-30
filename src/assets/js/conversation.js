@@ -174,7 +174,7 @@
         },
         {
             name: "ms20",
-            msg: "É só clicar na opçãp teste gratis!",
+            msg: "É só clicar na opção teste gratis!",
             delay: 4000,
             align: "left",
             showTime: true,
