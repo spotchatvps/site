@@ -4,7 +4,7 @@
         {
             name: "ms1",
             msg: "Ola! Gostaria de saber mais sobre o sistema",
-            delay: 300,
+            delay: 3000,
             align: "right",
             showTime: true,
             time: "19:58",
