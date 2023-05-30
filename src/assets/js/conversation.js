@@ -3,7 +3,7 @@
     var chatMessages = [
         {
             name: "ms1",
-            msg: "👋Hi​! I'm a Spacle. Let me know if you have any questions regarding our tool or set up a demo to learn more!",
+            msg: "Ola! Gostaria de saber mais sobre o sistema",
             delay: 300,
             align: "right",
             showTime: true,
@@ -12,7 +12,7 @@
         },
         {
             name: "ms2",
-            msg: "Ask a Question",
+            msg: "Olá, Gabriela!👋 Seja bem vindo (a) SPOTCHAT   Você já é nosso cliente ou dedeja Saber Mais? Digite uma opção: [1]-Saber Mais [2]-Sou Cliente",
             delay: 3000,
             align: "left",
             showTime: true,
@@ -21,7 +21,7 @@
         },
         {
             name: "ms3",
-            msg: "Sure! Ask me anything!",
+            msg: "1"!",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -30,7 +30,7 @@
         },
         {
             name: "ms4",
-            msg: "What are you doing?",
+            msg: "Certo, que legal! Nosso sistema é uma ferramenta de Multiatendimento, você colocar sua equipe para atendimento, usando um único número de Whatsapp. tendo todo geranciamento",
             delay: 2000,
             align: "left",
             showTime: true,
@@ -39,7 +39,7 @@
         },
         {
             name: "ms5",
-            msg: "I'm great! I would love to get to better understand how you're doing and your needs, so I can best tell you how I can help you. Let me get some contact details.",
+            msg: "Eu Consigo gerenciar a conversa?.",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -48,7 +48,7 @@
         },
         {
             name: "ms6",
-            msg: "Could you describe EnvyTheme in one sentence?",
+            msg: "Sim, você tem controle total de todas as conversas, um Dashboard mostrando como estão os atendimento de sua equipe",
             delay: 2000,
             align: "left",
             showTime: true,
@@ -57,7 +57,7 @@
         },
         {
             name: "ms7",
-            msg: "EnvyTheme.com | Premium High-Quality Items Design+Dev! Buy all exciting premium templates and themes from EnvyTheme!",
+            msg: "Posso dividir o atendimento da minha equipe?",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -66,7 +66,7 @@
         },
         {
             name: "ms8",
-            msg: "What makes you different from other learning platforms?",
+            msg: "Nosso sistema pois opção de você criar as Filas de atendimento, com isso organizando seu atendimento e ganhando agilidade",
             delay: 2000,
             align: "left",
             showTime: true,
@@ -75,7 +75,7 @@
         },
         {
             name: "ms9",
-            msg: "The best Innovative Chatbot and automations are here to expand.",
+            msg: "Que legal!❤️",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -84,7 +84,7 @@
         },
         {
             name: "ms10",
-            msg: "Great, Thank You!❤️",
+            msg: "Nosso sistema possiu o módulo de CAMPANHAS, onde você pode dispar mensagens em massa para seus cliente, ganhando tempo para informar seus clientes",
             delay: 4000,
             align: "left",
             showTime: true,
@@ -93,7 +93,7 @@
         },
         {
             name: "ms11",
-            msg: "👋Hi​! I'm a Spacle. Let me know if you have any questions regarding our tool or set up a demo to learn more!",
+            msg: "Posso enviar mensagem de Venda ou Boas vindas?",
             delay: 1000,
             align: "right",
             showTime: true,
@@ -102,7 +102,7 @@
         },
         {
             name: "ms12",
-            msg: "Ask a Question",
+            msg: "Sim!! E você também pode usar o módulo de AGENDAMENTO.",
             delay: 3000,
             align: "left",
             showTime: true,
@@ -111,7 +111,7 @@
         },
         {
             name: "ms13",
-            msg: "Sure! Ask me anything!",
+            msg: "Consigo programar uma menagem de reposta ou avisar o cliente sobre uma data de retorno?",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -120,7 +120,7 @@
         },
         {
             name: "ms14",
-            msg: "What are you doing?",
+            msg: "Nosso sistema Disponibiliza esse opção sim!",
             delay: 2000,
             align: "left",
             showTime: true,
@@ -129,7 +129,7 @@
         },
         {
             name: "ms15",
-            msg: "I'm great! I would love to get to better understand how you're doing and your needs, so I can best tell you how I can help you. Let me get some contact details.",
+            msg: "Como posso conhecer esse sistema?",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -138,7 +138,7 @@
         },
         {
             name: "ms16",
-            msg: "Could you describe EnvyTheme in one sentence?",
+            msg: "Vou enviar um link para acesso a nossa plataforma de demonstração.",
             delay: 2000,
             align: "left",
             showTime: true,
@@ -147,7 +147,7 @@
         },
         {
             name: "ms17",
-            msg: "EnvyTheme.com | Premium High-Quality Items Design+Dev! Buy all exciting premium templates and themes from EnvyTheme!",
+            msg: "Você possuem um plataforma de demonstração?!",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -156,7 +156,7 @@
         },
         {
             name: "ms18",
-            msg: "What makes you different from other learning platforms?",
+            msg: "Sim, você gostaria de conhecer?",
             delay: 2000,
             align: "left",
             showTime: true,
@@ -165,7 +165,7 @@
         },
         {
             name: "ms19",
-            msg: "The best Innovative Chatbot and automations are here to expand.",
+            msg: "Claro,❤️.",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -174,7 +174,7 @@
         },
         {
             name: "ms20",
-            msg: "Great, Thank You!❤️",
+            msg: "É só clicar na opçãp teste gratis!",
             delay: 4000,
             align: "left",
             showTime: true,
@@ -183,7 +183,7 @@
         },
         {
             name: "ms21",
-            msg: "EnvyTheme.com | Premium High-Quality Items Design+Dev! Buy all exciting premium templates and themes from EnvyTheme! EnvyTheme.com | Premium High-Quality Items Design+Dev! Great, Thank You!❤️",
+            msg: " Qualquer dúvida estamos aqui, tenha um ótimo teste! | Premium High-Quality Items Design+Dev! Great, Thank You!❤️",
             delay: 3000,
             align: "right",
             showTime: true,
