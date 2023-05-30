@@ -4,7 +4,7 @@
         {
             name: "ms1",
             msg: "Ola! Gostaria de saber mais sobre o sistema",
-            delay: 3000,
+            delay: 4000,
             align: "right",
             showTime: true,
             time: "19:58",
@@ -13,7 +13,7 @@
         {
             name: "ms2",
             msg: "Olá, Gabriela!👋 Seja bem vindo (a) SPOTCHAT   Você já é nosso cliente ou dedeja Saber Mais? Digite uma opção: [1]-Saber Mais [2]-Sou Cliente",
-            delay: 3000,
+            delay: 5000,
             align: "left",
             showTime: true,
             time: "19:58",
@@ -21,7 +21,7 @@
         },
         {
             name: "ms3",
-            msg: "1"!",
+            msg: "1",
             delay: 3000,
             align: "right",
             showTime: true,
@@ -30,11 +30,11 @@
         },
         {
             name: "ms4",
-            msg: "Certo, que legal! Nosso sistema é uma ferramenta de Multiatendimento, você colocar sua equipe para atendimento, usando um único número de Whatsapp. tendo todo geranciamento",
-            delay: 2000,
+            msg: "Certo, que legal! Nosso sistema é uma ferramenta de Multiatendimento, você pode colocar sua equipe para atendimento usando um único número de Whatsapp. tendo todo geranciamento",
+            delay: 5000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "19:59",
             img: "assets/img/author-image/author7.jpg"
         },
         {
@@ -43,16 +43,16 @@
             delay: 3000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "19:59",
             img: "assets/img/author-image/author8.jpg"
         },
         {
             name: "ms6",
             msg: "Sim, você tem controle total de todas as conversas, um Dashboard mostrando como estão os atendimento de sua equipe",
-            delay: 2000,
+            delay: 5000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "19:59",
             img: "assets/img/author-image/author7.jpg"
         },
         {
@@ -61,106 +61,106 @@
             delay: 3000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "20:00",
             img: "assets/img/author-image/author8.jpg"
         },
         {
             name: "ms8",
             msg: "Nosso sistema pois opção de você criar as Filas de atendimento, com isso organizando seu atendimento e ganhando agilidade",
-            delay: 2000,
+            delay: 5000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "20:00",
             img: "assets/img/author-image/author7.jpg"
         },
         {
             name: "ms9",
-            msg: "Que legal!❤️",
+            msg: "Que legal!👏🏻❤️",
             delay: 3000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "20:00",
             img: "assets/img/author-image/author8.jpg"
         },
         {
             name: "ms10",
             msg: "Nosso sistema possiu o módulo de CAMPANHAS, onde você pode dispar mensagens em massa para seus cliente, ganhando tempo para informar seus clientes",
-            delay: 4000,
+            delay: 5000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "20:01",
             img: "assets/img/author-image/author7.jpg"
         },
         {
             name: "ms11",
             msg: "Posso enviar mensagem de Venda ou Boas vindas?",
-            delay: 1000,
+            delay: 4000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "20:01",
             img: "assets/img/author-image/author8.jpg"
         },
         {
             name: "ms12",
             msg: "Sim!! E você também pode usar o módulo de AGENDAMENTO.",
-            delay: 3000,
+            delay: 4000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "20:01",
             img: "assets/img/author-image/author7.jpg"
         },
         {
             name: "ms13",
             msg: "Consigo programar uma menagem de reposta ou avisar o cliente sobre uma data de retorno?",
-            delay: 3000,
+            delay: 4000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "20:01",
             img: "assets/img/author-image/author8.jpg"
         },
         {
             name: "ms14",
             msg: "Nosso sistema Disponibiliza esse opção sim!",
-            delay: 2000,
+            delay: 4000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "20:02",
             img: "assets/img/author-image/author7.jpg"
         },
         {
             name: "ms15",
             msg: "Como posso conhecer esse sistema?",
-            delay: 3000,
+            delay: 4000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "20:02",
             img: "assets/img/author-image/author8.jpg"
         },
         {
             name: "ms16",
             msg: "Vou enviar um link para acesso a nossa plataforma de demonstração.",
-            delay: 2000,
+            delay: 4000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "20:02",
             img: "assets/img/author-image/author7.jpg"
         },
         {
             name: "ms17",
             msg: "Você possuem um plataforma de demonstração?!",
-            delay: 3000,
+            delay: 4000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "20:03",
             img: "assets/img/author-image/author8.jpg"
         },
         {
             name: "ms18",
             msg: "Sim, você gostaria de conhecer?",
-            delay: 2000,
+            delay: 4000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "20:03",
             img: "assets/img/author-image/author7.jpg"
         },
         {
@@ -169,7 +169,7 @@
             delay: 3000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "20:03",
             img: "assets/img/author-image/author8.jpg"
         },
         {
@@ -178,16 +178,16 @@
             delay: 4000,
             align: "left",
             showTime: true,
-            time: "19:58",
+            time: "20:04",
             img: "assets/img/author-image/author7.jpg"
         },
         {
             name: "ms21",
-            msg: " Qualquer dúvida estamos aqui, tenha um ótimo teste! | Premium High-Quality Items Design+Dev! Great, Thank You!❤️",
-            delay: 3000,
+            msg: "Obrigada!!👍🏼",
+            delay: 4000,
             align: "right",
             showTime: true,
-            time: "19:58",
+            time: "20:04",
             img: "assets/img/author-image/author8.jpg"
         },
     ];
